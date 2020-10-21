@@ -12,10 +12,8 @@ import java.util.List;
 @SpringBootApplication
 public class Parcial2SebastianNieto {
 
-
 	public static void main(String[] args) {
 		SpringApplication.run(Parcial2SebastianNieto.class, args);
 	}
-
 
 }

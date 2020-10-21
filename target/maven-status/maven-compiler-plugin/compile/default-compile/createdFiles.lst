@@ -1,1 +1,10 @@
+edu\eci\arsw\parcial\modelo\Coor.class
+edu\eci\arsw\parcial\modelo\DatosCiudad.class
+edu\eci\arsw\parcial\servicios\ExecptionService.class
+edu\eci\arsw\parcial\servicios\ServiceImpl.class
 edu\eci\arsw\parcial\Parcial2SebastianNieto.class
+edu\eci\arsw\parcial\http\HttpImpl.class
+edu\eci\arsw\parcial\http\Http.class
+edu\eci\arsw\parcial\servicios\Service.class
+edu\eci\arsw\parcial\controladores\ParcialController.class
+edu\eci\arsw\parcial\modelo\Clima.class
