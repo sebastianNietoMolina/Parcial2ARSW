@@ -9,6 +9,6 @@ import java.util.List;
 @org.springframework.stereotype.Service("Service")
 public interface Service {
 
-    DatosCiudad getDataByCity(String name) throws Exception;
+    List<DatosCiudad> getDataByCity(String name) throws Exception;
 
 }

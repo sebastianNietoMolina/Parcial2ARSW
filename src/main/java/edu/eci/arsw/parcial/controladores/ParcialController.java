@@ -22,7 +22,8 @@ public class ParcialController {
     @RequestMapping(value = "/{name}", method = RequestMethod.GET)
     public ResponseEntity<?> getDataByCity(@PathVariable String name) {
         try {
-            return new ResponseEntity<>(cs.getDataByCity(name), HttpStatus.ACCEPTED);
+
+            return new ResponseEntity<>( cs.getDataByCity(name), HttpStatus.ACCEPTED);
         } catch (Exception ex) {
             return new ResponseEntity<>("Error 404", HttpStatus.NOT_FOUND);
         }
