@@ -3,6 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Weather layer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="/webjars/jquery/jquery.min.js"></script>
+  <script src="/webjars/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="js/appiclient.js"></script>
+  <script src="js/app.js"></script>
+  <link rel="stylesheet" href="/webjars/bootstrap/4.5.2/css/bootstrap.min.css"/>
+
   <style>
     html, body{
       width: 100%;
@@ -179,14 +189,21 @@
 
 <h2>Clima por ciudad de la Tiera!!!!</h2>
 <div class="input-group">
-  <input type="text" id="loc" >
-  <button type="button" onclick="app.getWeaterByCity()">Buscar</button>
+  <input type="text" id="name" >
+  <button type="button" onclick="app.init()">Buscar</button>
 </div>
 
-<table class="table table-striped" id="Tairports">
+<table class="table table-striped" id="tabla">
   <thead class="thead-dark">
   <tr>
-
+    <th>CoorLon</th>
+    <th>CoorLan</th>
+    <th>Clima</th>
+    <th>visibility</th>
+    <th>dt</th>
+    <th>id</th>
+    <th>name</th>
+    <th>timezone</th>
   </tr>
   </thead>
   <tbody>

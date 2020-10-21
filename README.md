@@ -141,7 +141,7 @@ document.getElementById("demo").innerHTML = "name: " + obj.name + ", age: " + ob
 ```
 
 <<<<<<< HEAD
-* Código de página con Mapa embebido [(Ver archivo)](src/main/resources/static/js/index.html)
+* Código de página con Mapa embebido [(Ver archivo)](src/main/resources/static/index.html)
     
 =======
 * Código de página con Mapa embebido [(Ver archivo)](src/main/resources/static/index.html)

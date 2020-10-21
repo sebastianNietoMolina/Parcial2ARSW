@@ -1,7 +1,8 @@
 appiclient = (function (){
 
     function getWinter(name, callback){
-            $.get("https://bancoeci.herokuapp.com/"+name, function(data){
+    //"https://bancoeci.herokuapp.com/"
+            $.get("http:/localhost:8080/clima/"+name, function(data){
                     callback(data);
                 }, 'json');
 

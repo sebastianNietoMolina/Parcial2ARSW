@@ -1,7 +1,5 @@
 var app = (function () {
 
-    var newData;
-    var Country;
 
     function init(){
         var nombre = $("#name").val();
@@ -9,7 +7,7 @@ var app = (function () {
     }
 
     function _prettyPrint(data){
-        newData = data;
+        console.log(data);
         data.map(function (info) {
             $("#tabla > tbody").append(
                 "<tr> <td>"  info.coor.lon+"</td> <td>"
@@ -31,8 +29,7 @@ var app = (function () {
 
 
     return {
-        init: init,
-        getDataByCountry: getDataByCountry
+        init: init
     };
 
 })();
