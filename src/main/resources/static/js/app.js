@@ -19,7 +19,7 @@ var app = (function () {
                 + info.dt+"</td></td>"
                 + info.id+"</td></td>"
                 + info.name+"</td></td>"
-                + info.timezone+"</td></td>"
+                + info.timezone+"</td></tr>"
             );
         });
 
