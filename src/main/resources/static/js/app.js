@@ -15,7 +15,8 @@ var app = (function () {
                 "<tr> <td>" + pais.country
                 +"</button></form>"+ "</td> <td>"
                 + pais.deaths + "</td> <td>"
-                + pais.confirmed+ "</td> <td>" + pais.recovered+"</td></tr>"
+                + pais.confirmed+ "</td> <td>"
+                + pais.recovered+"</td></tr>"
             );
         });
 
